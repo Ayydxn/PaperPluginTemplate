@@ -2,8 +2,8 @@ import xyz.jpenilla.runtask.task.AbstractRun
 
 plugins {
     id("java")
-    id("io.papermc.paperweight.userdev") version "1.7.1"
-    id("xyz.jpenilla.run-paper") version "2.3.0"
+    id("io.papermc.paperweight.userdev") version "2.0.0-beta.14"
+    id("xyz.jpenilla.run-paper") version "2.3.1"
 }
 
 version = "${rootProject.property("plugin_version")}-mc${rootProject.property("minecraft_version")}"
